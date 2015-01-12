@@ -12,6 +12,10 @@
  		WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  		See the License for the specific language governing permissions and
  		limitations under the License.
+ * 
+ * * The Strange IOC Framework is hosted at https://github.com/strangeioc/strangeioc. 
+ * Code contained here may contain modified code which is subject to the license 
+ * at this link.
  */
 
 using strange.extensions.implicitBind.api;

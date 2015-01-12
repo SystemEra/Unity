@@ -24,9 +24,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace FullInspector.Serializers.ModifiedJsonNet {
-    /// <summary>
-    /// Converts all types that derive from UnityObject.
-    /// </summary>
     public class PrefabConverter : JsonConverter {
         public override bool CanConvert(Type objectType) {
             return typeof(Prefab).Resolve().IsAssignableFrom(objectType.Resolve());
@@ -35,8 +32,6 @@ namespace FullInspector.Serializers.ModifiedJsonNet {
 		private Dictionary<string, GameObject> m_assetDictionary = null;
         public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer) 
 		{
-            // null may have been serialized automatically by Json.NET, so we need to recover handle
-            // the null case
             if (reader.TokenType == JsonToken.Null) {
                 return null;
             }
