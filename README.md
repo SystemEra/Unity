@@ -14,7 +14,6 @@
  		limitations under the License.
 */
  
-
 System Era Unity Tools
 
 1.0 CONTENTS
@@ -30,7 +29,7 @@ This readme.
 The Strange IOC Framework, hosted at https://github.com/strangeioc/strangeioc, and copied here with the original license.
 
 1.5 Strange Extensions
-Extensions that rely on the strange framework, and which in some cases is derivative of code included in the Strange framework.
+Extensions that rely on the strange framework, and which are in some cases derivative of code included in the Strange framework.
 
 1.6 Full Inspector Extensions
 Extensions that rely on the Full Inspector Unity package written by Jacob Dufault, hosted at http://jacobdufault.github.io/fullinspector/.  The Full Inspector code itself requires a separate license obtainable at https://www.assetstore.unity3d.com/en/#!/content/14913, and the code for Full Inspector is not hosted here.
